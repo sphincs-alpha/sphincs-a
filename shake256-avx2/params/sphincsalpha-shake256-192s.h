@@ -1,0 +1,1 @@
+../../ref/params/sphincsalpha-shake256-192s.h

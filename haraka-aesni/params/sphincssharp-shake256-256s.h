@@ -1,1 +1,0 @@
-../../ref/params/sphincssharp-shake256-256s.h

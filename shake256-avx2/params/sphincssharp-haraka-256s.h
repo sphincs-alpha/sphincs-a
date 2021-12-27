@@ -1,1 +1,0 @@
-../../ref/params/sphincssharp-haraka-256s.h

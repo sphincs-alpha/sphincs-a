@@ -20,7 +20,7 @@ for impl, fns in implementations:
     params = os.path.join(impl, "params.h")
     for fn in fns:
         for opt, size, thash in itertools.product(options, sizes, thashes):
-            paramset = "sphincssharp-{}-{}{}".format(fn, size, opt)
+            paramset = "sphincsalpha-{}-{}{}".format(fn, size, opt)
             paramfile = "{}.h".format(paramset)
 
             print("Benchmarking", paramset, thash, "using", impl, flush=True)
